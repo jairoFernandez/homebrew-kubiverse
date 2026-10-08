@@ -4,27 +4,27 @@
 class KubiverseBridge < Formula
   desc "Bridge between Kubiverse (a voxel game) and your Kubernetes cluster"
   homepage "https://github.com/jairoFernandez/kubiverse"
-  version "0.1.24"
+  version "0.1.25"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.24/kubiverse-bridge-darwin-arm64"
-      sha256 "d1fceede65312f6e94d1f31bf7ac8489411f260d89df5ac067ea07f294c48f42"
+      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.25/kubiverse-bridge-darwin-arm64"
+      sha256 "ae4cec70314b1efd6bbe965247e7ec1ab20389a55b38b5d513f515f2fa7c7432"
     end
     on_intel do
-      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.24/kubiverse-bridge-darwin-amd64"
-      sha256 "22b0690b6037ea08346af736ba3c3ba1abc7513ba4955a5f624e6e4e0ccc23be"
+      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.25/kubiverse-bridge-darwin-amd64"
+      sha256 "310a0bd68752fed9fe32dfa93bee4f67422ba5cab175e61de159efcf4bf7464f"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.24/kubiverse-bridge-linux-arm64"
-      sha256 "8df8d733456b547cef124e9f45aa805afe921746809cf93e2c10fbc76634a9ed"
+      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.25/kubiverse-bridge-linux-arm64"
+      sha256 "1d1195c7669b7e9a80baf5716600a8da9fae43abafefbdb1cae85ff400a625c9"
     end
     on_intel do
-      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.24/kubiverse-bridge-linux-amd64"
-      sha256 "d3c8558428bc79c856b17c34dbd5fa03f53be8244e58a77369a6061b9255dca5"
+      url "https://github.com/jairoFernandez/kubiverse/releases/download/v0.1.25/kubiverse-bridge-linux-amd64"
+      sha256 "a9b89c65631b016b926fca36ba83641d07432ff0c3065d6ec0ba9ea60b966bf8"
     end
   end
 
