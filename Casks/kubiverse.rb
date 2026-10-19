@@ -1,8 +1,8 @@
 # Homebrew cask for the native macOS game (rendered by packaging/render.sh).
 #   brew install --cask jairofernandez/kubiverse/kubiverse
 cask "kubiverse" do
-  version "0.1.30"
-  sha256 "7d33ad95e5e87aa73d512d1492217f3e50a686e0e782fd203b302ab9fbffeee2"
+  version "0.1.31"
+  sha256 "57a87194f7ab44c6fa6b86cb8fe33160c3a3ae0660fc23e6e5f3aba995cc19a8"
 
   url "https://github.com/jairoFernandez/kubiverse/releases/download/v#{version}/kubiverse-macos.zip"
   name "Kubiverse"
